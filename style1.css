@@ -5,7 +5,9 @@ html
   background-color: rgba(98, 202, 150, 1);
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-
+@import url(http://allfont.net/allfont.css?fonts=montserrat-light);
+h3{ color: #FFB6C1; font-family: 'Montserrat light', Arial; font-size: 34px; font-weight: 50; line-height: 40px; margin: 0 0 16px;
+}
 a {
   color: white;
 }
@@ -13,7 +15,6 @@ a {
 ul {
   list-style-type: none;
 
-}
 
 .ImgAbout {
         margin: 40px 0px 0px 0px;
