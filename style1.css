@@ -10,9 +10,7 @@
   text-align: center;
   color: white;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
 
-/* add class */
 h3 {
   color: #1a1a1a;
   font-family: "Playlist";
@@ -78,11 +76,11 @@ h3 {
   -ms-transform: translate(-50%, -50%);
 }
 
-.text3.1 {
+.textone {
   color: #1a1a1a;
   font-size: 80px;
   font-family:"Playlist";
-  position: text-center;
+  position: pull-right;
   top: 10%;
   left: 50%;
   transform: translate(-80%, -50%);
@@ -120,10 +118,17 @@ ul {
   border: 7px solid white;
   border-radius: 20px;
 }
-.social {
-  position: absolute;
+footer {
+    padding: 80px 0;
+    background-color: #f8fafa;
+}
+#footer-info {
     width: 100%;
-    left: 0;
-    text-align: right;
-    margin:0 auto;
+    float: left;
+    margin-top: 10px;
+}
+.footer-social {
+  width: 100%;
+  float: right;
+  margin-top: 10px;
 }
