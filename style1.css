@@ -1,35 +1,26 @@
-@font-face {
-    font-family: 'Playlist';
-    src: url('Playlist-Script.woff2') format('woff2'),
-        url('Playlist-Script.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.html {
+html {
   text-align: center;
   color: white;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
 
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+@import url(http://allfont.net/allfont.css?fonts=montserrat-light);
+/* add class */
 h3 {
-  color: #1a1a1a;
-  font-family: "Playlist";
+  color: #FFB6C1;
+  font-family: 'Montserrat light', Arial;
   font-size: 34px;
   font-weight: 50;
-  text-align: center;
-  vertical-align: middle;
-}
-.text-nowrap {
-    white-space: nowrap;
+  line-height: 40px;
+  margin: 0 0 16px;
 }
 .container1 {
-  position: relative;
+  position: static;
   width: 100%;
 }
-.container2 {
-  position: relative;
-  width: 100%;
-}
+
 .firstlayout {
   display: block;
   width: 100%;
@@ -49,52 +40,19 @@ h3 {
   background-color: #008CBA;
 }
 
-/* .container2:hover .overlay {
-  opacity: 0.5;
-} */
+.container1:hover .overlay {
+  opacity: 1;
+}
 
 .text1 {
-  color: #1a1a1a;
-  font-size: 80px;
-  font-family:"Playlist";
+  color: white;
+  font-size: 30px;
+  font-family:"playlist-script";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
-.text2 {
-  font-family: 'GlacialIndifferenceRegular';
-  font-weight: normal;
-  font-style: normal;
-  color: #1a1a1a;
-  font-size: 80px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.textone {
-  color: #1a1a1a;
-  font-size: 80px;
-  font-family:"Playlist";
-  position: pull-right;
-  top: 10%;
-  left: 50%;
-  transform: translate(-80%, -50%);
-  -ms-transform: translate(-80%, -50%);
-}
-.text3.2 {
-  color: #1a1a1a;
-  font-size: 80px;
-  font-family:"Playlist";
-  position: text-center;
-  top: 10%;
-  left: 50%;
-  transform: translate(-80%, -50%);
-  -ms-transform: translate(-80%, -50%);
 }
 
 a {
@@ -109,34 +67,13 @@ ul {
   width: 100%;
   height: auto;
 }
-#message {
-  width: 100%;
-  height: auto;
-}
 .ImgAbout {
   margin: 40px 0px 0px 0px;
   border: 7px solid white;
   border-radius: 20px;
 }
-<<<<<<< HEAD
 
 #navbarSupportedContent {
   background-color: black;
-  width: 100%;
-  height: auto;
-=======
-footer {
-    padding: 80px 0;
-    background-color: #f8fafa;
-}
-#footer-info {
-    width: 100%;
-    float: left;
-    margin-top: 10px;
-}
-.footer-social {
-  width: 100%;
-  float: right;
-  margin-top: 10px;
->>>>>>> 42754c554a56f338c5acf942fc61c9b11facc6f9
+  
 }
