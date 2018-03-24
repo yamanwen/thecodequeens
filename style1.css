@@ -1,26 +1,37 @@
-html {
+@font-face {
+    font-family: 'Playlist';
+    src: url('Playlist-Script.woff2') format('woff2'),
+        url('Playlist-Script.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.html {
   text-align: center;
   color: white;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
-
-@import url(http://allfont.net/allfont.css?fonts=montserrat-light);
 /* add class */
 h3 {
-  color: #FFB6C1;
-  font-family: 'Montserrat light', Arial;
+  color: #1a1a1a;
+  font-family: "Playlist";
   font-size: 34px;
   font-weight: 50;
-  line-height: 40px;
-  margin: 0 0 16px;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-nowrap {
+    white-space: nowrap;
 }
 .container1 {
-  position: static;
+  position: relative;
   width: 100%;
 }
-
+.container2 {
+  position: relative;
+  width: 100%;
+}
 .firstlayout {
   display: block;
   width: 100%;
@@ -40,19 +51,52 @@ h3 {
   background-color: #008CBA;
 }
 
-.container1:hover .overlay {
-  opacity: 1;
-}
+/* .container2:hover .overlay {
+  opacity: 0.5;
+} */
 
 .text1 {
-  color: white;
-  font-size: 30px;
-  font-family:"playlist-script";
+  color: #1a1a1a;
+  font-size: 80px;
+  font-family:"Playlist";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+.text2 {
+  font-family: 'GlacialIndifferenceRegular';
+  font-weight: normal;
+  font-style: normal;
+  color: #1a1a1a;
+  font-size: 80px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text3.1 {
+  color: #1a1a1a;
+  font-size: 80px;
+  font-family:"Playlist";
+  position: text-center;
+  top: 10%;
+  left: 50%;
+  transform: translate(-80%, -50%);
+  -ms-transform: translate(-80%, -50%);
+}
+.text3.2 {
+  color: #1a1a1a;
+  font-size: 80px;
+  font-family:"Playlist";
+  position: text-center;
+  top: 10%;
+  left: 50%;
+  transform: translate(-80%, -50%);
+  -ms-transform: translate(-80%, -50%);
 }
 
 a {
@@ -67,8 +111,19 @@ ul {
   width: 100%;
   height: auto;
 }
+#message {
+  width: 100%;
+  height: auto;
+}
 .ImgAbout {
   margin: 40px 0px 0px 0px;
   border: 7px solid white;
   border-radius: 20px;
+}
+.social {
+  position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: right;
+    margin:0 auto;
 }
