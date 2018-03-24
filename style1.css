@@ -51,16 +51,7 @@ article {
   text-align: center;
   transform: translate(-50%, -50%);
 }
-.left-half {
-  background-color: #white;
-  float: left;
-  width: 50%;
-}
-.right-half {
-  background-color: #white;
-  float: right;
-  width: 50%;
-}
+
 .container1 {
   position: static;
   width: 100%;
@@ -82,9 +73,11 @@ article {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #f8fafa;
 }
-
+.messahe{
+  position: left;
+}
 .container2:hover .overlay {
   opacity: 0.5;
   }
@@ -95,7 +88,7 @@ article {
 .text1 {
   color: white;
   font-size: 30px;
-  font-family:"playlist-script";
+  font-family: "GlacialIndifferenceRegular";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -107,7 +100,7 @@ article {
   font-weight: normal;
   font-style: normal;
   color: #1a1a1a;
-  font-size: 80px;
+  font-size: 50px;
   /* position: relative;
   top: 50%;
   left: 50%;
@@ -117,8 +110,8 @@ article {
 
 .textone {
   color: #1a1a1a;
-  font-size: 80px;
-  font-family:"Playlist";
+  font-size: 50px;
+  font-family:'GlacialIndifferenceRegular';
   /* position: pull-right;
   top: 10%;
   left: 50%;
@@ -128,7 +121,7 @@ article {
 .text3.2 {
   color: #1a1a1a;
   font-size: 80px;
-  font-family:"Playlist";
+  font-family:'GlacialIndifferenceRegular';
   position: text-center;
   top: 10%;
   left: 50%;
