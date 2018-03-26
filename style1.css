@@ -3,6 +3,28 @@ html {
   color: white;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+#header{
+ background-image: url("background.png");
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
+
+.navbarnavbar-inverse{
+  flex: 1
+}
+body {
+    width: 100%;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
 
@@ -15,6 +37,9 @@ h3 {
   font-weight: 50;
   line-height: 40px;
   margin: 0 0 16px;
+}
+*{
+  box-sizing: border-box;
 }
 .container1 {
   position: static;
@@ -37,9 +62,14 @@ h3 {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #f8fafa;
 }
-
+.messahe{
+  position: relative;
+}
+.container2:hover .overlay {
+  opacity: 0.5;
+  }
 .container1:hover .overlay {
   opacity: 1;
 }
@@ -47,12 +77,58 @@ h3 {
 .text1 {
   color: white;
   font-size: 30px;
-  font-family:"playlist-script";
+  font-family: "GlacialIndifferenceRegular";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+.text2 {
+  font-family: 'GlacialIndifferenceRegular';
+  font-weight: normal;
+  font-style: normal;
+  color: #1a1a1a;
+  font-size: 50px;
+  text-align: center;
+  position: center;
+  left: 0px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: center;
+  /* position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+}
+
+.textone {
+  color: #1a1a1a;
+  font-size: 50px;
+  font-family:'GlacialIndifferenceRegular';
+  text-align: center;
+}
+  /* position: pull-right;
+  top: 10%;
+  left: 50%;
+  transform: translate(-80%, -50%);
+  -ms-transform: translate(-80%, -50%); */
+}
+.text3.2 {
+  color: #1a1a1a;
+  font-size: 80px;
+  font-family:'GlacialIndifferenceRegular';
+  position: text-center;
+  top: 10%;
+  left: 50%;
+  transform: translate(-80%, -50%);
+  -ms-transform: translate(-80%, -50%);
+}
+
+a {
+  color: white;
 }
 
 ul {
@@ -68,6 +144,19 @@ ul {
   border: 7px solid white;
   border-radius: 20px;
 }
+footer {
+    padding: 10px 0;
+    background-color: #000000;
+}
+#footer-info {
+    width: 100%;
+    margin-left: 90px;
+}
+#contact{  font-family: 'GlacialIndifferenceRegular';
+  font-weight: normal;
+  font-style: normal;
+  color: #f8fafa;
+  font-size: 20px;
 
 #navbarSupportedContent {
   background-color: black;
@@ -76,4 +165,5 @@ ul {
 .NavbarImage {
   height: auto;
   width: 100%;
+  margin-right: 90px;
 }
