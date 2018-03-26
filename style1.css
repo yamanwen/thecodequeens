@@ -108,7 +108,7 @@ h3 {
   color: #1a1a1a;
   font-size: 50px;
   font-family:'GlacialIndifferenceRegular';
-  text-align: center;
+  text-align: middle;
 }
   /* position: pull-right;
   top: 10%;
@@ -156,6 +156,7 @@ footer {
   font-weight: normal;
   font-style: normal;
   color: #f8fafa;
+  color: #grey;
   font-size: 20px;
 
 #navbarSupportedContent {
