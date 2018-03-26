@@ -22,7 +22,9 @@ html {
 .navbarnavbar-inverse{
   flex: 1
 }
-
+body {
+    width: 100%;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
 
@@ -39,19 +41,6 @@ h3 {
 *{
   box-sizing: border-box;
 }
-section {
- margin-top: 30px;
-  width: 100%;
-}
-article {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  padding: 1rem;
-  text-align: center;
-  transform: translate(-50%, -50%);
-}
-
 .container1 {
   position: static;
   width: 100%;
@@ -76,7 +65,7 @@ article {
   background-color: #f8fafa;
 }
 .messahe{
-  position: left;
+  position: relative;
 }
 .container2:hover .overlay {
   opacity: 0.5;
@@ -101,6 +90,13 @@ article {
   font-style: normal;
   color: #1a1a1a;
   font-size: 50px;
+  text-align: center;
+  position: center;
+  left: 0px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: center;
   /* position: relative;
   top: 50%;
   left: 50%;
@@ -112,6 +108,8 @@ article {
   color: #1a1a1a;
   font-size: 50px;
   font-family:'GlacialIndifferenceRegular';
+  text-align: center;
+}
   /* position: pull-right;
   top: 10%;
   left: 50%;
@@ -162,7 +160,6 @@ footer {
 
 #navbarSupportedContent {
   background-color: black;
->>>>>>> 3f936219a88718930acff48536291e5e72ca32dc
 }
 
 .NavbarImage {
